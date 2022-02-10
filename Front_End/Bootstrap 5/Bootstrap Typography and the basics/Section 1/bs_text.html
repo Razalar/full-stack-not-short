@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-center display-1">
+        <strong>Bootstrap Text Basics</strong>
+      </h1>
+    </header>
+    <div class="container">
+      <h2 class="display-4 mt-5"><small>1.</small> Inline text elements</h2>
+      <div class="card p-3 bg-light">
+        <!-- <mark>highlight</mark> -->
+        <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+        <!-- <del> </del> -->
+        <p><del>This line of text is meant to be treated as deleted text.</del></p>
+        <!-- <s></s> -->
+        <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
+        <!-- <ins></ins> -->
+        <p><ins>This line of text is meant to be treated as an addition to the document.</ins></p>
+        <!-- <u></u> -->
+        <p><u>This line of text will render as underline</u></p>
+        <!-- <small></small> -->
+        <p><small>This line of text is meant to be treated as fine print.</small></p>
+        <!-- <strong></strong> -->
+        <p><strong>This line rendered as bold.</strong></p>
+        <!-- <em></em> -->
+        <p><em>This line rendered as italicized text.</em></p>
+      </div>
+      <h2 class="display-4 mt-5"><small>2.</small> Text decoration</h2>
+
+      <div class="card p-3 bg-light">
+        <!-- class="text-decoration-underline" -->
+        <p class="text-decoration-underline">This text has a line underneath it.</p>
+        <!-- class="text-decoration-line-through" -->
+        <p class="text-decoration-line-through">This text has a line going throught it.</p>
+        <!-- class="text-decoration-none" -->
+        <a class="text-decoration-none" href="#">This link has its text decoration removed.</a>
+
+      </div>
+      <h2 class="display-4 mt-5"><small>3.</small> Text Allignment</h2>
+      <div class="card p-3 bg-light">
+        <!-- class="text-start" -->
+        <p class="text-start">Start aligned text on all viewport sizes.</p>
+        <!-- class="text-center" -->
+        <p class="text-center">Center aligned text on all viewport sizes.</p>
+        <!-- class="text-end" -->
+        <p class="text-end">End aligned text on all viewport sizes.</p>
+        <!-- class="text-sm-end" -->
+        <p class="text-sm-end">Start aligned text on viewports sized SM (small) or wider.</p>
+        <!-- class="text-md-end" -->
+        <p class="text-md-end">Start aligned text on viewports sized MD (medium) or wider.</p>
+        <!-- class="text-lg-center" -->
+        <p class="text-lg-center">Start aligned on viewports sized LG (large) or wider.</p>
+        <!-- class="text-xl-center" -->
+        <p class="text-xl-center">Start aligned text on viewports sized XL (extra-large) or wider.</p>
+
+      </div>
+
+      <!-- Text wrapping and overflow -->
+
+      <h2 class="display-4 mt-5"><small>4.</small> Test wrapping and overflow</h2>
+      <div class="card p-3 bg-light">
+        <!-- text-wrap -->
+        <div class="text-wrap badge bg-primary" style="width: 6rem">
+          This text should wrap.
+        </div>
+        <!-- text-nowrap -->
+        <div class="text-nowrap bd-highlight" style="width: 8rem">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
+      </div>
+      <h2 class="display-4 mt-5"><small>5.</small> Text transform</h2>
+
+      <div class="card p-3 bg-light">
+        <!-- class="text-lowercase" -->
+        <p class="text-lowercase">Lowercased text.</p>
+        <!-- class="text-uppercase" -->
+        <p class="text-uppercase">Uppercased text.</p>
+        <!-- class="text-capitalize" -->
+        <p class="text-capitalize">CapiTaliZed text.</p>
+      </div>
+
+      <h2 class="display-4 mt-5"><small>6.</small> Font weight and italics</h2>
+      <div class="card p-3 bg-light">
+        <!-- class="fw-bold" -->
+        <p class="fw-bold">Bold text.</p>
+        <!-- class="fw-bolder" -->
+        <p class="fw-bolder">Bolder weight text (relative to the parent element).</p>
+        <!-- class="fw-normal" -->
+        <p class="fw-normal">Normal weight text.</p>
+        <!-- class="fw-light" -->
+        <p class="fw-light" >Light weight text.</p>
+        <!-- class="fw-lighter" -->
+        <p class="fw-lighter">Lighter weight text (relative to the parent element).</p>
+        <!-- class="fst-italic" -->
+        <p class="fst-italic">Italic text.</p>
+        <!-- class="fst-normal" -->
+        <p class="fst-normal">Text with normal font style.</p>
+      </div>
+
+      <h2 class="display-4 mt-5"><small>7.</small> Font size</h2>
+
+      <div class="card p-3 bg-light">
+        <!-- fs-1...fs-6 -->
+        <p class="fs-1">fs-1 text</p>
+        <p class="fs-2">fs-2 text</p>
+        <p class="fs-3">fs-3 text</p>
+        <p class="fs-4">fs-4 text</p>
+        <p class="fs-5">fs-5 text</p>
+        <p class="fs-6">fs-6 text</p>
+      </div>
+
+      <h2 class="display-4 mt-5"><small>8.</small> Line Height</h2>
+
+      <div class="card p-3 bg-light">
+        <p class="lh-1">This is a long paragraph written to show how the line-height of an element is affected by our utilites. Classes are applied to the element itself or sometimes the parent element. Tese classes can be customized as needed with our utility API.</p>
+
+        <p class="lh-sm">This is a long paragraph written to show how the line-height of an element is affected by our utilites. Classes are applied to the element itself or sometimes the parent element. Tese classes can be customized as needed with our utility API.</p>
+
+        <p class="lh-base">This is a long paragraph written to show how the line-height of an element is affected by our utilites. Classes are applied to the element itself or sometimes the parent element. Tese classes can be customized as needed with our utility API.</p>
+
+        <p class="lh-lg">This is a long paragraph written to show how the line-height of an element is affected by our utilites. Classes are applied to the element itself or sometimes the parent element. Tese classes can be customized as needed with our utility API.</p>
+
+      </div>
+
+
+    </div>
+
+  </body>
+</html>

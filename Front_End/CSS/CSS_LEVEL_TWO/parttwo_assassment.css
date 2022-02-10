@@ -1,0 +1,34 @@
+#colorone{
+  background: #EF6461;
+}
+
+#colortwo{
+  background: #E4B363;
+}
+
+#colorthree{
+  background: #E8E9EB;
+}
+
+#colorfour{
+  background: #E0DFD5;
+}
+
+#colorfive{
+  background: #313638;
+}
+
+td{
+  height: 200px;
+  padding: 100px;
+  border: 6px solid white;
+}
+
+h1{
+  font-family: 'Comforter', cursive;
+  text-align: center;
+}
+
+.center{
+  margin: auto;
+}

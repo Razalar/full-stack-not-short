@@ -1,0 +1,23 @@
+/* This is a comment */
+
+/* General Form of CSS:
+select tag{
+  property: value;
+} */
+
+h1{
+  color: red;
+}
+
+li{
+  color: rgb(255, 111, 0);
+}
+
+p{
+  color: #07a4b5;
+}
+
+/*a = Alpha, 0-1 scale, 0 = fully transparent and 1 = fully solid*/
+h4{
+  color: rgba(88, 7, 181, 0.8);
+}
