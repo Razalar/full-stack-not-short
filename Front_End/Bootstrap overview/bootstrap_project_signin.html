@@ -8,17 +8,36 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" style="color:white;" href="bootstrap_project.html">Welcome</a>
+        <a class="navbar-brand" style="color:white;" href="#">Welcome</a>
           <div class="collapse navbar-collapse" id="navbarAltmarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" href="#" style="text-decoration: none; color:white;">Sign In</a>
+              <a class="nav-link active" href="bootstrap_project.html" style="text-decoration: none; color:white;">Landing Page</a>
             </div>
           </div>
     </nav>
     <div class="container">
       <div class="card p-3 bg-light">
-        <h1 class="display-4 mt-5 text-center">Coffe Lover Project</h1>
+        <h1 class="display-4 mt-5 ms-3 text-left">Log in</h1>
+        <p class="fs-3 ms-3 mb-5">Enter your email address and password below to log in to the Coffee Lover</p>
       </div>
+      <form>
+        <div class="mb-3">
+          <label for="emaillogin" class="form-label mt-3 fs-4">Email address</label>
+          <input type="email" class="form-control" id="emaillogin" placeholder="Email">
+        </div>
+        <div class="mb-3">
+          <label for="passwordlogin" class="form-label mt-3 fs-4">Password</label>
+          <input type="password" id="passwordlogin" class="form-control" placeholder="Password">
+        </div>
+
+        <div class="mb-3">
+          <input type="checkbox" id="stayin" value="yes">
+          <label for="stayin">Keep me Logged In</label>
+        </div>
+        <button type="submit" class="btn btn-secondary" name="button">Submit</button>
+      </form>
     </div>
+
+
   </body>
 </html>
