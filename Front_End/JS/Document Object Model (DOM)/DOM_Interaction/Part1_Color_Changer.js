@@ -33,5 +33,21 @@ function changeHeaderColor(){
   header.style.color = colorInput;
 }
 
+
+var i = 0;
+function dancer() {
+  var l = ["(>^-^)>","<(^-^<)","(>^-^)>","<(^-^<)","(>^-^)>","<(^-^<)","(>^-^)>","<(^-^<)","(>^-^)>","<(^-^<)","(>^-^)>","<(^-^<)","(>^-^)>","<(^-^<)","(>^-^)>","<(^-^<)","(>^-^)>","<(^-^<)","(>^-^)>","<(^-^<)","(>^-^)>","<(^-^<)","(>^-^)>","<(^-^<)","(>^-^)>","<(^-^<)","(>^-^)>","<(^-^<)","(>^-^)>","<(^-^<)","(>^-^)>","<(^-^<)","(>^-^)>","<(^-^<)"]
+
+  if (i < l.length) {
+    header.textContent = l[i];
+    i++;
+  }else {
+    i = 0;
+  }
+
+}
+
+setInterval("dancer()", 500)
+
 // Now perform the action over intervals (milliseocnds):
-setInterval("changeHeaderColor()",1);
+//setInterval("changeHeaderColor()",1);
