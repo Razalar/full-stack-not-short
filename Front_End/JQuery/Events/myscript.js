@@ -1,3 +1,5 @@
+//api.jquery.com
+
 //Clicks
 // $('h1').click(function(){
 //   console.log("There was a click.");
@@ -21,6 +23,11 @@ $('input').eq(0).keypress(function(event) {
 
 //.on Method
 //Acts like oneventlistener from vanilla JS
-$('h1').on('dblclick', function() {
+$('h1').on('mouseenter', function() {
   $(this).toggleClass('turnBlue');
+})
+
+//Events and animations
+$('input').eq(1).on('click',function() {
+  $('.container').slideUp(3000)
 })
